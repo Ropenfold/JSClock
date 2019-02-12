@@ -1,0 +1,42 @@
+.container{
+    display: flex;
+    height: 100vh;
+    width: 100wh;
+    justify-content: center;
+    align-items: center;
+    border: 10px solid goldenrod;
+}
+
+.clock-face {
+    width: 300px;
+      height: 300px;
+      background: blue;
+      border-radius: 50%
+}
+
+.hour-hand{
+    width: 7px;
+    height: 100px;
+    background: black;
+    top: 250px;
+    left: 670px;
+    position: absolute;
+}
+
+.minute-hand{
+    width: 5px;
+    height: 150px;
+    background: red;
+    position: absolute;
+    top:200px;
+    left: 670px;
+}
+
+.second-hand{
+     width: 3px;
+    height: 150px;
+    background: green;
+    position: absolute;
+    top:200px;
+    left: 670px;
+}
