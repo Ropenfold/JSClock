@@ -18,9 +18,11 @@
   width: 7px;
   height: 100px;
   background: black;
-  top: 250px;
+  top: 37.5%;
   left: 50%;
   position: absolute;
+  transform: rotate(150deg);
+  transform-origin: bottom;
 }
 
 #minute-hand {
@@ -28,8 +30,10 @@
   height: 150px;
   background: red;
   position: absolute;
-  top: 200px;
+  top: 30%;
   left: 50%;
+  transform: rotate(45deg);
+  transform-origin: bottom;
 }
 
 #second-hand {
@@ -37,6 +41,8 @@
   height: 150px;
   background: green;
   position: absolute;
-  top: 200px;
+  top: 30%;
   left: 50%;
+   transform: rotate(10deg);
+  transform-origin: bottom;
 }
